@@ -9,9 +9,9 @@ TaskController taskController2 = new TaskController(2);
 // Arena
 DateTime t0 = DateTime.Now;
 
-taskController.handleTask();
-taskController2.handleTask();
-taskController.handleTask(500);
+taskController.HandleTask();
+taskController2.HandleTask();
+taskController.HandleTask(500);
 
 DateTime t1 = DateTime.Now;
 Console.WriteLine($"Time spent running logs : {t1 - t0}");

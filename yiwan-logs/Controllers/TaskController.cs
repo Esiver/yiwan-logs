@@ -20,7 +20,7 @@ namespace yiwan_logs.Controllers
             this.Logger = new Logger();
         }
 
-        public void handleTask(int tasks = 10000) 
+        public void HandleTask(int tasks = 10000) 
         {
             for (int i = 0; i < tasks; i++)
             {
